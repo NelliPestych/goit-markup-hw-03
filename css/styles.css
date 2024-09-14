@@ -286,7 +286,6 @@ button:hover, button:focus {
 }
 
 .portfolio-list-item {
-    border: 1px solid #E7E9FC;
     width: calc((100% - 48px) / 3);
 }
 
