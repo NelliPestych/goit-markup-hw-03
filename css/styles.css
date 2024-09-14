@@ -194,6 +194,7 @@ button:hover, button:focus {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    padding: 0;
 }
 
 .second-section-title {
@@ -221,6 +222,7 @@ button:hover, button:focus {
     flex-direction: row;
     justify-content: space-between;
     gap: 24px;
+    padding: 0;
 }
 
 .team-title {
@@ -273,6 +275,7 @@ button:hover, button:focus {
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
+    padding: 0;
 }
 
 .portfolio-title {
