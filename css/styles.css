@@ -61,6 +61,7 @@ header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0 15px;
 }
 
 header .logo .logo-style {
@@ -88,6 +89,10 @@ header .container nav ul, header .container address ul {
 }
 
 .nav-item, .contacts-item {
+    padding: 24px 0;
+}
+
+.nav-link {
     padding: 24px 0;
 }
 
@@ -159,7 +164,6 @@ h3 {
     min-width: 169px;
     height: 56px;
     border: none;
-    background-color: #4d5ae5;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -170,6 +174,7 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    background-color: #4d5ae5;
 }
 
 /* Buttons */
@@ -182,18 +187,10 @@ button:hover, button:focus {
     text-align: center;
 }
 
-.second-section h2 {
-    visibility: hidden;
-}
-
 .second-section .second-section-list {
     display: flex;
     flex-direction: row;
     gap: 24px;
-}
-
-.second-section-list-item {
-    width: calc((100% - 72px) / 4);
 }
 
 .second-section-title {
@@ -205,6 +202,10 @@ button:hover, button:focus {
     letter-spacing: 0.02em;
     color: #434455;
     text-align: left;
+}
+
+.second-section-list-item {
+    width: calc((100% - 72px) / 4);
 }
 
 /* Team section styles */
@@ -244,6 +245,7 @@ button:hover, button:focus {
 
 .team-item {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
 }
 
 .team-item-text {
@@ -280,7 +282,7 @@ button:hover, button:focus {
     margin-bottom: 8px;
 }
 
-.portfolio .portfolio-list-item {
+.portfolio-list-item {
     border: 1px solid #E7E9FC;
     width: calc((100% - 48px) / 3);
 }
@@ -314,7 +316,7 @@ footer .container {
     flex-direction: column;
 }
 
-footer a {
+footer .container .logo {
     color: #F4F4FD;
     text-decoration: none;
     display: inline-block;
@@ -346,4 +348,16 @@ footer a:hover {
 
 .section {
     padding: 120px 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+    white-space: nowrap;
 }
