@@ -208,7 +208,7 @@ button:hover, button:focus {
 }
 
 .second-section-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 /* Team section styles */
@@ -312,11 +312,6 @@ footer {
     background-color: #2E2F42;
     color: #FFFFFF;
     padding: 100px 0;
-}
-
-footer .container {
-    display: flex;
-    flex-direction: column;
 }
 
 footer .container .logo {
